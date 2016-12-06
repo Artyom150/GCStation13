@@ -71,6 +71,19 @@
 		update_icon()
 		alarmed = 1
 
+/obj/item/weapon/gun/projectile/automatic/ar57
+	name = "\improper AR-57 Assault Rifle"
+	desc = "A heavy combat rifle perfect for taking down whatever target you point it at. Fires 5.56x45mm in 3 round bursts."
+	icon_state = "ar57"
+	item_state = "ar57"
+	mag_type = /obj/item/ammo_box/magazine/ar57
+	burst_size = 3
+
+/obj/item/weapon/gun/projectile/automatic/ar57/update_icon()
+	..()
+	icon_state = "[initial(icon_state)][magazine ? "" : "-e"]"
+	return
+
 /obj/item/weapon/gun/projectile/automatic/proto
 	name = "\improper Nanotrasen Saber SMG"
 	desc = "A prototype three-round burst 9mm submachine gun, designated 'SABR'. Has a threaded barrel for suppressors."
