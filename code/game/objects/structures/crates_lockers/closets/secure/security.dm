@@ -29,7 +29,7 @@
 		new /obj/item/clothing/shoes/laceup(src)
 		new /obj/item/device/radio/headset/heads/captain/alt(src)
 		new /obj/item/clothing/gloves/color/captain(src)
-		new /obj/item/weapon/storage/belt/rapier(src)
+		new /obj/item/weapon/storage/belt/osword(src)
 		new /obj/item/weapon/gun/energy/gun(src)
 		new /obj/item/weapon/door_remote/captain(src)
 
