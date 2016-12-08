@@ -448,7 +448,7 @@
 	storage_slots = 1
 	w_class = 4
 	max_w_class = 4
-	can_hold = list("/obj/item/weapon/melee/rapier")
+	can_hold = list("/obj/item/weapon/melee/osword")
 
 /obj/item/weapon/storage/belt/osword/update_icon()
 	icon_state = "[initial(icon_state)]"
