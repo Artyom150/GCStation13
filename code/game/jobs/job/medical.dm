@@ -46,6 +46,7 @@
 	idtype = /obj/item/weapon/card/id/medical
 	access = list(access_medical, access_morgue, access_surgery, access_chemistry, access_virology, access_genetics, access_mineral_storeroom)
 	minimal_access = list(access_medical, access_morgue, access_surgery, access_maint_tunnels)
+	alt_titles = list("Medical Specialist, Coroner", "Medical Specialist, Surgeon")
 	minimal_player_age = 3
 
 	equip(var/mob/living/carbon/human/H)
@@ -57,7 +58,7 @@
 			if(4) H.equip_or_collect(new /obj/item/weapon/storage/backpack/satchel(H), slot_back)
 		if(H.mind.role_alt_title)
 			switch(H.mind.role_alt_title)
-				if("Coroner")
+				if("Medical Specialist, Coroner")
 					H.equip_or_collect(new /obj/item/clothing/under/rank/medical/mortician(H), slot_w_uniform)
 					H.equip_or_collect(new /obj/item/clothing/suit/storage/labcoat/mortician(H), slot_wear_suit)
 					if(H.backbag != 1)
@@ -65,22 +66,13 @@
 						H.equip_or_collect(new /obj/item/weapon/autopsy_scanner(H), slot_in_backpack)
 						H.equip_or_collect(new /obj/item/device/mass_spectrometer(H), slot_in_backpack)
 						H.equip_or_collect(new /obj/item/weapon/storage/box/bodybags(H), slot_in_backpack)
-				if("Surgeon")
+				if("Medical Specialist, Surgeon")
 					H.equip_or_collect(new /obj/item/clothing/under/rank/medical/blue(H), slot_w_uniform)
 					H.equip_or_collect(new /obj/item/clothing/suit/storage/labcoat(H), slot_wear_suit)
 					H.equip_or_collect(new /obj/item/clothing/head/surgery/blue(H), slot_head)
-				if("Medical Doctor")
+				if("Medical Specialist")
 					H.equip_or_collect(new /obj/item/clothing/under/rank/medical(H), slot_w_uniform)
 					H.equip_or_collect(new /obj/item/clothing/suit/storage/labcoat(H), slot_wear_suit)
-				if("Nurse")
-					if(H.gender == FEMALE)
-						if(prob(50))
-							H.equip_or_collect(new /obj/item/clothing/under/rank/nursesuit(H), slot_w_uniform)
-						else
-							H.equip_or_collect(new /obj/item/clothing/under/rank/nurse(H), slot_w_uniform)
-						H.equip_or_collect(new /obj/item/clothing/head/nursehat(H), slot_head)
-					else
-						H.equip_or_collect(new /obj/item/clothing/under/rank/medical/purple(H), slot_w_uniform)
 		else
 			H.equip_or_collect(new /obj/item/clothing/under/rank/medical(H), slot_w_uniform)
 			H.equip_or_collect(new /obj/item/clothing/suit/storage/labcoat(H), slot_wear_suit)
@@ -203,12 +195,8 @@
 			if(4) H.equip_to_slot_or_del(new /obj/item/weapon/storage/backpack/satchel(H), slot_back)
 		if(H.mind.role_alt_title)
 			switch(H.mind.role_alt_title)
-				if("Psychiatrist")
+				if("Shipboard Psychiatrist")
 					H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/psych(H), slot_w_uniform)
-				if("Psychologist")
-					H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/psych/turtleneck(H), slot_w_uniform)
-				if("Therapist")
-					H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/medical(H), slot_w_uniform)
 		else
 			H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/medical(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/labcoat(H), slot_wear_suit)
