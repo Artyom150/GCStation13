@@ -1,0 +1,12 @@
+<H1><b><u>Welcome to Frontier: Exploration Destroyer Kapalla!</b></u></H1>
+
+<H2><b>For all newcomers, please read our rules! They can either be found up top with the Rules button, or be found <a href="http://galacticconquests.freeforums.net/thread/295/server-rules">here!</a></b></H2>
+
+
+<b>We're currently looking for coders, spriters and staff, so if you're interested in applying, apply <a href="http://galacticconquests.freeforums.net/">here!</a>
+
+
+Lobby background was made by GC member RedDwarfIV.
+
+<i>This server is running our custom <a href="http://nanotrasen.se/">Paradise</a> codebase!</i>
+<i><a href="https://github.com/ParadiseSS13/Paradise">https://github.com/ParadiseSS13/Paradise</a></i>
