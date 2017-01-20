@@ -174,7 +174,7 @@ RULESURL http://galacticconquests.freeforums.net/thread/295/server-rules
 # DONATIONSURL http://example.org
 
 ## Repository address
-# REPOSITORYURL https://github.com/GCStationAdminMax/GCStation-13-Dev
+REPOSITORYURL https://github.com/GCStationAdminMax/GCStation-13-Dev
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins
 BANAPPEALS http://galacticconquests.freeforums.net/board/36/ban-appeals
