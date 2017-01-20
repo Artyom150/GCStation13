@@ -6,7 +6,6 @@
 ######################################################################
 
 # ckey - Admin
-conmann35 - Host
 Artyom150 - Head Admin
 LordDeshara - Head Admin
 Sliprunner - Game Admin
