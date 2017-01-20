@@ -1,3 +1,14 @@
+/obj/item/ammo_casing/ar556
+	desc = "A 5.56 rifle casing."
+	caliber = "5.56"
+	projectile_type = /obj/item/projectile/bullet/weakbullet4/rubber
+
+/obj/item/ammo_casing/ar556/hp
+	projectile_type = /obj/item/projectile/bullet/midbullet3/hp
+
+/obj/item/ammo_casing/ar556/fmj
+	projectile_type = /obj/item/projectile/bullet/midbullet3/fmj
+
 /obj/item/ammo_casing/a357
 	desc = "A .357 bullet casing."
 	caliber = "357"

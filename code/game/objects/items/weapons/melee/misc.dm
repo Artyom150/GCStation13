@@ -20,11 +20,11 @@
 		to_chat(viewers(user), "<span class='suicide'>[user] is strangling \himself with the [src.name]! It looks like \he's trying to commit suicide.</span>")
 		return (OXYLOSS)
 
-/obj/item/weapon/melee/rapier
-	name = "captain's rapier"
-	desc = "An elegant weapon, for a more civilized age."
-	icon_state = "rapier"
-	item_state = "rapier"
+/obj/item/weapon/melee/osword
+	name = "captain's sword"
+	desc = "An elegant weapon, standard issue for all Imperial Officers above the rank of Major."
+	icon_state = "osword"
+	item_state = "osword"
 	flags = CONDUCT
 	force = 15
 	throwforce = 10

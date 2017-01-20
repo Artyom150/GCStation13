@@ -170,6 +170,28 @@
 
 ///////////EXTERNAL MAGAZINES////////////////
 
+/obj/item/ammo_box/magazine/ar57
+	name = "AR-57 Magazine (5.56x45mm)"
+	desc = "Standard AR-57 magazine containing 30, 5.56x45mm rounds. These ones are rubber. Good for taking down targets non-lethally."
+	icon_state = "ar57ca556"
+	ammo_type = /obj/item/ammo_casing/ar556
+	caliber = "5.56x45mm"
+	max_ammo = 30
+	multiple_sprites = 2
+
+/obj/item/ammo_box/magazine/ar57/hp
+	name = "AR-57 Magazine (5.56x45mm)"
+	desc = "Standard AR-57 magazine containing 30, 5.56x45mm rounds. These ones are hollow-point. Good against Ferros infiltrators, not against rogue Marines."
+	ammo_type = /obj/item/ammo_casing/ar556/hp
+
+/obj/item/ammo_box/magazine/ar57/fmj
+	name = "AR-57 Magazine (5.56x45mm)"
+	desc = "Standard AR-57 magazine containing 30, 5.56x45mm rounds. These ones are full metal jacketed. Good against armour, less effective against soft targets."
+	ammo_type = /obj/item/ammo_casing/ar556/fmj
+
+/obj/item/ammo_box/magazine/ar57/empty/update_icon()
+	icon_state = "[initial(icon_state)]-[stored_ammo.len ? "30" : "0"]"
+
 /obj/item/ammo_box/magazine/m10mm
 	name = "pistol magazine (10mm)"
 	desc = "A gun magazine."

@@ -47,6 +47,16 @@
 	embed = 0
 	sharp = 0
 
+/obj/item/projectile/bullet/weakbullet4  //default assault rifle instastuns, but multiple shots are better for keeping punks down
+	name = "rubber bullet"
+	damage = 10
+	weaken = 3
+	stamina = 60
+
+/obj/item/projectile/bullet/weakbullet4/rubber //assault rifle bullets that don't embed
+	embed = 0
+	sharp = 0
+
 /obj/item/projectile/bullet/weakbullet3
 	damage = 20
 
@@ -121,6 +131,10 @@
 /obj/item/projectile/bullet/midbullet3/ap
 	damage = 27
 	armour_penetration = 40
+
+/obj/item/projectile/bullet/midbullet3/fmj
+	damage = 30
+	armour_penetration = 25
 
 /obj/item/projectile/bullet/midbullet3/fire/on_hit(atom/target, blocked = 0)
 	if(..(target, blocked))
