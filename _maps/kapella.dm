@@ -16,11 +16,11 @@ z7 = empty
 
         #include "map_files\kapella\kapella.dmm"
         #include "map_files\kapella\z2.dmm"
-        #include "map_files\cyberiad\z3.dmm"
-        #include "map_files\cyberiad\z4.dmm"
-        #include "map_files\cyberiad\z5.dmm"
-        #include "map_files\cyberiad\z6.dmm"
-        #include "map_files\cyberiad\z7.dmm"
+        #include "map_files\kapella\z3.dmm"
+        #include "map_files\kapella\z4.dmm"
+        #include "map_files\kapella\z5.dmm"
+        #include "map_files\kapella\z6.dmm"
+        #include "map_files\kapella\z7.dmm"
 
         #define MAP_FILE "kapella.dmm"
         #define MAP_NAME "MNED Kapella"
