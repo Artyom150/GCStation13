@@ -1,6 +1,6 @@
 # GCStation
 
-[Website](http://galacticconquests.freeforums.net/board/40/general) - [Code](https://github.com/GCStationAdminMax/gcstation) - [Steam Group and Group Chat](https://steamcommunity.com/groups/GalacticConquestForum)
+[Website](http://www.gcstation13.com/) - [Code](https://github.com/Artyom150/GCStation13) - [Forum](http://galacticconquests.freeforums.net/forum) - [Steam Group and Group Chat](https://steamcommunity.com/groups/GalacticConquestForum)
 
 ### Please refer to the applications section of the forum for guidelines on how to become a contributor.
 
