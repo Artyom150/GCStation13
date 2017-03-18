@@ -171,7 +171,7 @@ WIKIURL https://nsscyberiad.net//wiki/index.php/Main_Page
 RULESURL http://galacticconquests.freeforums.net/thread/295/server-rules
 
 ## Donations address
-# DONATIONSURL http://example.org
+# DONATIONSURL https://www.nfoservers.com/donate.pl?force_recipient=1&recipient=mjstanley8%40gmail.com
 
 ## Repository address
 REPOSITORYURL https://github.com/Artyom150/GCStation13
