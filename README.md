@@ -16,7 +16,7 @@ You'll need to download git or some client from [here](http://git-scm.com/).
 When that's installed, right click in any folder and click on "Git Bash".  
 When that opens, type in:
 
-    git clone https://github.com/GCStationAdminMax/GCStation-13-Dev.git
+    git clone https://github.com/Artyom150/GCStation13
 
 (hint: hold down ctrl and press insert to paste into git bash)
 
