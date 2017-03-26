@@ -165,7 +165,7 @@ GUEST_BAN
 FORUMURL http://galacticconquests.freeforums.net
 
 ## Wiki address
-WIKIURL https://nsscyberiad.net//wiki/index.php/Main_Page
+WIKIURL https://www.gcstation13.com/wiki/Main_Page
 
 ## Rules address
 RULESURL http://galacticconquests.freeforums.net/thread/295/server-rules
